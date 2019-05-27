@@ -7,14 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Phillip Roux - Phillip Roux</title>
-  <meta property="og:title" content="Phillip Roux" />
-  <meta name="twitter:title" content="Phillip Roux" />
-  <meta name="description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Azure Path Based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
-  <meta property="og:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Azure Path Based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
-  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with …"><script type="application/ld+json">
+  <title>Posts - Phillip Roux</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" /><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -35,16 +30,13 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
 }
 </script>
 
-<meta property="og:title" content="Phillip Roux" />
-<meta property="og:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Azure Path Based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
+<meta property="og:title" content="Posts" />
 <meta property="og:image" content="https://philliproux.com/img/avatar-icon.png" />
-<meta property="og:url" content="https://philliproux.com/" />
+<meta property="og:url" content="https://philliproux.com/post/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Phillip Roux" />
 
-  <meta name="twitter:title" content="Phillip Roux" />
-  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with …">
+  <meta name="twitter:title" content="Posts" />
   <meta name="twitter:image" content="https://philliproux.com/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@philliproux" />
@@ -55,7 +47,7 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@philliproux" />
   <meta name="twitter:creator" content="@philliproux" />
-  <meta property="og:url" content="https://philliproux.com/" />
+  <meta property="og:url" content="https://philliproux.com/post/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Phillip Roux" />
 
@@ -192,18 +184,31 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="post-heading">
               
-                <h1>Phillip Roux</h1>
-              
-              
-                <hr class="small">
+                <h1>Posts</h1>
               
               
-                
-                  <span class="page-subheading">.NET • Azure • DevOps</span>
-                
               
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 27, 2019
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;0&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;0&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
               
             </div>
           </div>
@@ -214,167 +219,21 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
 
 
     
-  <div role="main" class="container">
+  <div class="container" role="main">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
-          <div class="well">
-            
-
-<h2 id="what-is-azure-front-door">What is Azure Front door?</h2>
-
-<p><a href="https://azure.microsoft.com/en-us/services/frontdoor/">Azure Front Door</a> Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.</p>
-
-<h2 id="using-azure-path-based-routing-rules-to-do-blue-green-deployments">Using Azure Path Based routing rules to do Blue Green deployments?</h2>
-
-<p>By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.</p>
-
-<p>TODO: Architecture diagram</p>
-
-<h2 id="azure-resources-for-setting-up-hosting-environment">Azure Resources for setting up hosting environment</h2>
-
-<p>We create a Front Door application.  For a quick start, see here.
-When setting up a Front Door service, three components are required:</p>
-
-<ul>
-<li><p><strong>Frontend Host</strong> – A public DNS name for your front door web application, by default <myappfrontend>.azurefd.net.  See here for configuring a custom domain host.</p></li>
-
-<li><p><strong>Backend Pool</strong> – A logical grouping of your application instances. In our example, we will group eventually have both our blue and green web application within the pool.</p></li>
-
-<li><p><strong>Routing Rules</strong>  – Rules to map your frontend host to an backend.</p></li>
-</ul>
-
-<p>I have chosen the following Azure Resources to compose our hosting environment:
-* Setup a blue Web App with a dedicated App Service Plan
-* Setup a  Web App with a dedicated App Service Plan
-* Azure Front Door Service</p>
-
-<p><img src="/static/img/post1_azure_resources.png" alt="Azure Resources" /></p>
-
-<h2 id="our-azure-front-door-configuration">Our Azure Front Door Configuration</h2>
-
-<p><strong>Front End:</strong><br />
-<em>Default Host</em>: frontdoor-blue-green.azurefd.net<br />
-<em>Custom Host</em>: frontdoor-blue-green-demo-app.philliproux.com</p>
-
-<p><strong>Backend Pool with one backend host:</strong><br />
-<em>Backend pool</em>: backendpool<br />
-<em>Backend host</em>: frontdoor-web-blue.azurewebsites.net</p>
-
-<p><strong>Routing:</strong><br />
-<em>Name</em>: alltrafic
-<em>Patterns</em>: /*</p>
-
-<p>You will notice we have not configured our second ‘green’ backend yet.  We will do this dynamically when toggling between the backends through the Azure CLI and Powershell automation.</p>
-
-<h2 id="setting-up-a-sample-asp-net-core-razor-page-web-app">Setting up a Sample ASP.NET Core Razor Page Web App</h2>
-
-<p>For illustration purposes, we will build a basic web application to indicate which backend you are accessing when navigating to the front door URL. Lets define environment variables on our two Azure Web Apps to reflect the different backends.</p>
-
-<p><img src="/static/img/post1_webapp_environment_variable.png" alt="Azure Resources" /></p>
-
-<p>In our app, we can access the environment variable in our Razor page as follows:</p>
-
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Environment: @Environment.GetEnvironmentVariable(&#34;DEPLOYMENT_HOST_COLOR&#34;)<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
-
-<h2 id="deploy-the-app-from-visual-studio">Deploy the App from Visual Studio</h2>
-
-<p>At this point and time we can manually deploy our web application from Visual Studio Code or Visual Studio, to both our blue and green web apps to validate our two backend environment colors.</p>
-
-<p>At this point in time, when navigating to our front door URL frontdoor-blue-green-demo-app.philliproux.com, we are accessing our blue backend that we configured.</p>
-
-<p><img src="/static/img/post1_sample_netcore_app.png" alt="Azure Resources" /></p>
-
-<h2 id="automate-toggling-between-blue-and-green-backends-with-azure-cli-and-powershell">Automate toggling between Blue and Green backends with Azure CLI and Powershell</h2>
-
-<p>To toggle between our two backends, I created a Powershell script with the Azure CLI to automate the switching between backends.  We will use this script later when we setup our CI/CD pipeline in Azure DevOps.  Let’s test the switching of backends from blue to green.</p>
-
-<p><del>Gist</del></p>
-
-<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="p">.\</span><span class="n">ToggleFrontdoorBackends</span><span class="p">.</span><span class="n">ps1</span>
-    <span class="n">-frontDoorResourceGroup</span> <span class="s2">&#34;frontdoor-bluegreen-rg&#34;</span> 
-    <span class="n">-frontDoorName</span> <span class="s2">&#34;frontdoor-blue-green&#34;</span> 
-    <span class="n">-frontDoorBackendPoolName</span> <span class="s2">&#34;backendpool&#34;</span> 
-    <span class="n">-frontDoorUrl</span> <span class="s2">&#34;frontdoor-blue-green-demo-app.philliproux.com&#34;</span>
-    <span class="n">-webAppBlueUrl</span> <span class="s2">&#34;frontdoor-web-blue.azurewebsites.net&#34;</span> 
-    <span class="n">-webAppGreenUrl</span> <span class="s2">&#34;frontdoor-web-green.azurewebsites.net&#34;</span></code></pre></div>
-
-<p>The toggling of backends script performs the following operations:</p>
-
-<ul>
-<li>Detect which backend is current in use (blue/green) and set alternate target backend</li>
-<li>Check if target backend has been configured in Front Door, if not, configure backend</li>
-<li>Remove previous backend to route all traffic to new backend</li>
-<li>Poll Azure Front Door host until the new backend change has taken affect</li>
-</ul>
-
-<p>Note:</p>
-
-<ul>
-<li>In my tests I have found the switching of backends takes anything from a few seconds to a couple of minutes.</li>
-<li>Azure Front Door CLI is currently in preview at the time of writing this post.  To use the Front Door CLI, I have added the following line to the script:</li>
-</ul>
-
-<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">az</span> <span class="n">extension</span> <span class="n">add</span> <span class="p">-</span><span class="n">-name</span> <span class="n">front-door</span></code></pre></div>
-
-<h2 id="automate-blue-green-deployment-using-azure-devops-pipelines-using-multi-stage-yaml-based-ci-cd-pipelines">Automate Blue/Green Deployment using Azure DevOps Pipelines using multi-stage YAML based CI/CD pipelines</h2>
-
-<p>We will setup our Build &amp; Deployment pipeline using the recently released multi-stage YAML based CI/CD pipelines in Azure DevOps.  We will configure our pipeline in two stages, Build and Release:</p>
-
-<p><strong>Build Solution</strong>
-* Build .NET Core Web App
-* Publish Web App Artifact
-* Publish Toggle Front Door Backend Script
-Artifact</p>
-
-<p><strong>Release Solution</strong>
-* Download Web App Artifact
-* Download Toggle Front Door Backend Script Artifact
-* Detect current environment and set Target Environment variable to blue or green
-* Deploy Web App application to Target Environment
-* Switch Front Door Load Balancer to new environment
-* Poll Front Door for Load Balancer changes to take affect</p>
-
-<p>TODO: YAML: Gist</p>
-
-<h3 id="detecting-target-environment">Detecting Target Environment:</h3>
-
-<p>As mentioned in our test earlier, we need to detect our current backend, and set our target backend for deployment by polling the Azure Front Door host by parsing the current backend from the Domain value found in the set-cookie header.</p>
-
-<p><img src="/static/img/post1_detect_target_env.png" alt="Azure Resources" /></p>
-
-<p>TODO: Image: Chrome cookie</p>
-
-<p>Output from Toggle between blue and Green</p>
-
-<p><img src="/static/img/post1_poll_front_door_for_changes.png" alt="Azure Resources" /></p>
-
-<p><img src="/static/img/post1_build_release_completed.png" alt="Azure Resources" /></p>
-
-<h1 id="summary">Summary:</h1>
-
-<p>This post would not be complete if I did not mention Web Apps deployment slots which has been available for a couple years to enable a blue green deployment scenarios. I have however experienced some slow application startups and long running swap operations which led me to investigate front door as alternative with the added benefits the service offers outlined at the top of the summary.</p>
-
-<p>Stay tuned, as we will explore more use cases for Azure Front Door in the coming weeks.</p>
-
-<p><em>Code on <a href="https://github.com/philliproux/azure-frontdoor-bluegreen-deployment">github</a></em></p>
-
-<p>TODO: Make code public</p>
-
-          </div>
-        
-
         <div class="posts-list">
-          
           
             <article class="post-preview">
               <a href="https://philliproux.com/post/azure-front-door-blue-green-deployments/">
                 <h2 class="post-title">Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps</h2>
-                
+
                 
               </a>
 
-              <span class="post-meta">
+              <p class="post-meta">
+                <span class="post-meta">
   
   
   <i class="fas fa-calendar"></i>&nbsp;Posted on May 27, 2019
@@ -392,6 +251,7 @@ Artifact</p>
 </span>
 
 
+              </p>
               <div class="post-entry">
                 
                   What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
@@ -411,10 +271,10 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
                   
                 </div>
               
+
             </article>
           
         </div>
-
         
       </div>
     </div>
@@ -452,7 +312,7 @@ Using Azure Path Based routing rules to do Blue Green deployments? By placing Az
               </li>
           
           <li>
-            <a href="/index.xml" title="RSS">
+            <a href="/post/index.xml" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

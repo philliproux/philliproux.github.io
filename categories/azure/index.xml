@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>azure on Phillip Roux</title>
+    <link>https://philliproux.com/categories/azure/</link>
+    <description>Recent content in azure on Phillip Roux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 May 2019 18:19:43 +0200</lastBuildDate>
+    
+	<atom:link href="https://philliproux.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps</title>
+      <link>https://philliproux.com/post/azure-front-door-blue-green-deployments/</link>
+      <pubDate>Mon, 27 May 2019 18:19:43 +0200</pubDate>
+      
+      <guid>https://philliproux.com/post/azure-front-door-blue-green-deployments/</guid>
+      <description>What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
+Using Azure Path Based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.</description>
+    </item>
+    
+  </channel>
+</rss>

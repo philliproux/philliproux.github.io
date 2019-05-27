@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://philliproux.com/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/categories/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/post/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/tags/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/post/azure-front-door-blue-green-deployments/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/categories/azure/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/tags/azure/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/categories/devops/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/tags/devops/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/categories/frontdoor/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/tags/frontdoor/</loc>
+    <lastmod>2019-05-27T18:19:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://philliproux.com/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

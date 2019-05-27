@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Phillip Roux</title>
+    <link>https://philliproux.com/tags/</link>
+    <description>Recent content in Tags on Phillip Roux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 May 2019 18:19:43 +0200</lastBuildDate>
+    
+	<atom:link href="https://philliproux.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>azure</title>
+      <link>https://philliproux.com/tags/azure/</link>
+      <pubDate>Mon, 27 May 2019 18:19:43 +0200</pubDate>
+      
+      <guid>https://philliproux.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://philliproux.com/tags/devops/</link>
+      <pubDate>Mon, 27 May 2019 18:19:43 +0200</pubDate>
+      
+      <guid>https://philliproux.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frontdoor</title>
+      <link>https://philliproux.com/tags/frontdoor/</link>
+      <pubDate>Mon, 27 May 2019 18:19:43 +0200</pubDate>
+      
+      <guid>https://philliproux.com/tags/frontdoor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
