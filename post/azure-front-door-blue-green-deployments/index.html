@@ -10,11 +10,11 @@
   <title>Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps - Phillip Roux</title>
   <meta property="og:title" content="Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps" />
   <meta name="twitter:title" content="Web Apps Blue Green Deployments using Azure Front Door and Azure …" />
-  <meta name="description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Front Door path based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
-  <meta property="og:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Front Door path based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
-  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with …"><script type="application/ld+json">
+  <meta name="description" content="What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web applications capabilities with SSL offloading, global HTTP load balancing, near instant failover, URL-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
+Using Front Door URL-based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
+  <meta property="og:description" content="What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web applications capabilities with SSL offloading, global HTTP load balancing, near instant failover, URL-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
+Using Front Door URL-based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
+  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web …"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -59,12 +59,12 @@ Using Front Door path based routing rules to do Blue Green deployments? By placi
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
-    "name" : ""
+    "name" : "Phillip Roux"
   },
   "headline": "Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps",
-  "description" : "What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.\nUsing Front Door path based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.",
+  "description" : "What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web applications capabilities with SSL offloading, global HTTP load balancing, near instant failover, URL-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.\nUsing Front Door URL-based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.",
   "inLanguage" : "en",
-  "wordCount":  935 ,
+  "wordCount":  1016 ,
   "datePublished" : "2019-05-27T18:19:43",
   "dateModified" : "2019-05-27T18:19:43",
   "image" : "https:\/\/philliproux.com\/static\/img\/avatar-icon.png",
@@ -84,15 +84,15 @@ Using Front Door path based routing rules to do Blue Green deployments? By placi
 </script>
 
 <meta property="og:title" content="Web Apps Blue Green Deployments using Azure Front Door and Azure DevOps" />
-<meta property="og:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
-Using Front Door path based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
+<meta property="og:description" content="What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web applications capabilities with SSL offloading, global HTTP load balancing, near instant failover, URL-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.
+Using Front Door URL-based routing rules to do Blue Green deployments? By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.">
 <meta property="og:image" content="https://philliproux.com/static/img/avatar-icon.png" />
 <meta property="og:url" content="https://philliproux.com/post/azure-front-door-blue-green-deployments/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Phillip Roux" />
 
   <meta name="twitter:title" content="Web Apps Blue Green Deployments using Azure Front Door and Azure …" />
-  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with …">
+  <meta name="twitter:description" content="What is Azure Front door? Azure Front Door is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure. It provides web …">
   <meta name="twitter:image" content="https://philliproux.com/static/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@philliproux" />
@@ -256,10 +256,10 @@ Using Front Door path based routing rules to do Blue Green deployments? By placi
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;935&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1016&nbsp;words
   
   
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Phillip Roux
   
   
 </span>
@@ -283,9 +283,9 @@ Using Front Door path based routing rules to do Blue Green deployments? By placi
 
 <h2 id="what-is-azure-front-door">What is Azure Front door?</h2>
 
-<p><a href="https://azure.microsoft.com/en-us/services/frontdoor/">Azure Front Door</a> Service gives you access to Microsoft’s Global network infrastructure that provides your web application with SSL offloading, global HTTP load balancing with instant failover, path-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.</p>
+<p><a href="https://azure.microsoft.com/en-us/services/frontdoor/">Azure Front Door</a> is a new Application Delivery Network as a service that provides organisations access to Microsoft’s Global network infrastructure.  It provides web applications capabilities with SSL offloading, global HTTP load balancing, near instant failover, URL-based routing rules to different backends, Web Application Firewall, DDoS protection and load balancing at the edge.</p>
 
-<h2 id="using-front-door-path-based-routing-rules-to-do-blue-green-deployments">Using Front Door path based routing rules to do Blue Green deployments?</h2>
+<h2 id="using-front-door-url-based-routing-rules-to-do-blue-green-deployments">Using Front Door URL-based routing rules to do Blue Green deployments?</h2>
 
 <p>By placing Azure Front Door as a load balancer in front of your web application, we will examine in this post how to use Front Door in conjunction with Azure DevOps to perform blue green deployments for your Azure Web Application to achieve zero downtime.</p>
 
@@ -299,9 +299,9 @@ Using Front Door path based routing rules to do Blue Green deployments? By placi
 When setting up a Front Door service, three components are required:</p>
 
 <ul>
-<li><p><strong>Frontend Host</strong> – A public DNS name for your front door web application, by default <myappfrontend>.azurefd.net.  See <a href="https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain">here</a> for configuring a custom domain host.</p></li>
+<li><p><strong>Frontend Host</strong> – A public DNS name for your front door web application, by default <em>myappfrontend</em>.azurefd.net.  See <a href="https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain">here</a> for configuring a custom domain host.</p></li>
 
-<li><p><strong>Backend Pool</strong> – A logical grouping of your application instances. In our example, we will group eventually have both our blue and green web application within the pool.</p></li>
+<li><p><strong>Backend Pool</strong> – A logical grouping of your application instances. An application backend is any Internet-facing service hosted inside or outside of Azure. In our example, we will eventually group both our blue and green web applications within the same backend pool.</p></li>
 
 <li><p><strong>Routing Rules</strong>  – Rules to map your frontend host to an backend.</p></li>
 </ul>
@@ -320,23 +320,23 @@ When setting up a Front Door service, three components are required:</p>
 
 <p><strong>Front End:</strong><br />
 <em>Default Host</em>: frontdoor-blue-green.azurefd.net<br />
-<em>Custom Host</em>: frontdoor-blue-green-demo-app.philliproux.com</p>
+<em>Custom Host</em>: <a href="http://frontdoor-blue-green-demo-app.philliproux.com">frontdoor-blue-green-demo-app.philliproux.com</a></p>
 
 <p><strong>Backend Pool with one backend host:</strong><br />
 <em>Backend pool</em>: backendpool<br />
 <em>Backend host</em>: frontdoor-web-blue.azurewebsites.net</p>
 
 <p><strong>Routing:</strong><br />
-<em>Name</em>: alltrafic
+<em>Name</em>: alltrafic<br />
 <em>Patterns</em>: /*</p>
 
 <p>You will notice we have not configured our second ‘green’ backend yet.  We will do this dynamically when toggling between the backends through the Azure CLI and Powershell automation.</p>
 
 <h2 id="setting-up-a-sample-asp-net-core-razor-page-web-app">Setting up a Sample ASP.NET Core Razor Page Web App</h2>
 
-<p>For illustration purposes, we will build a basic web application to indicate which backend you are accessing when navigating to the front door URL. Lets <a href="https://docs.microsoft.com/en-us/azure/app-service/web-sites-configure">define environment variables</a> on our two Azure Web Apps to reflect the different backends.</p>
+<p>For illustration purposes, we will build a basic ASP Core Razor Page web application to indicate which backend you are accessing when navigating to the front door URL. Lets <a href="https://docs.microsoft.com/en-us/azure/app-service/web-sites-configure">define environment variables</a> on our two Azure Web Apps to reflect the different backends.</p>
 
-<p><img src="/static/img/post1_webapp_environment_variable.png" alt="Azure Resources" /></p>
+<p><img src="/static/img/post1_webapp_environment_variable.png" alt="Web App Environmental Variables" /></p>
 
 <p>In our app, we can access the environment variable in our Razor page as follows:</p>
 
@@ -344,17 +344,17 @@ When setting up a Front Door service, three components are required:</p>
 
 <h2 id="deploy-the-app-from-visual-studio">Deploy the App from Visual Studio</h2>
 
-<p>At this point and time we can manually deploy our web application from Visual Studio Code or Visual Studio, to both our blue and green web apps to validate our two backend environment colors.</p>
+<p>We can perform a manually deploy of our web application from Visual Studio Code or Visual Studio, to both our blue and green web apps to validate our two backend environment colors.</p>
 
-<p>At this point in time, when navigating to our front door URL frontdoor-blue-green-demo-app.philliproux.com, we are accessing our blue backend that we configured.</p>
+<p>At this point in time, when navigating to our front door URL <a href="http://frontdoor-blue-green-demo-app.philliproux.com">frontdoor-blue-green-demo-app.philliproux.com</a>, we get confirmation we are accessing our blue backend that we configured.</p>
 
-<p><img src="/static/img/post1_sample_netcore_app.png" alt="Azure Resources" /></p>
+<p><img src="/static/img/post1_sample_netcore_app.png" alt="Sample .NET Core App" /></p>
 
-<p><strong>Response header set by front door:</strong></p>
+<p><strong>Response header set by Front Door:</strong></p>
 
-<p>Azure Front Door indicates which backend you are reaching by setting the Domain value on Set-Cookie in the response. We will use this to determine which backend we are on in the next section.</p>
+<p>Azure Front Door indicates which backend you are reaching by setting the Domain value on the Set-Cookie in the response. We will use this cookie to determine which backend we are on in the next section and set the alternate target backend for deployment.</p>
 
-<p><img src="/static/img/post1_set_cookie.png" alt="Azure Resources" /></p>
+<p><img src="/static/img/post1_set_cookie.png" alt="Set Cookie Response" /></p>
 
 <h2 id="automate-toggling-between-blue-and-green-backends-with-azure-cli-and-powershell">Automate toggling between Blue and Green backends with Azure CLI and Powershell</h2>
 
@@ -380,7 +380,6 @@ When setting up a Front Door service, three components are required:</p>
 <p>Note:</p>
 
 <ul>
-<li>In my tests I have found the switching of backends takes anything from a few seconds to a couple of minutes.</li>
 <li>Azure Front Door CLI is currently in preview at the time of writing this post.  To use the Front Door CLI, I have added the following line to the script:</li>
 </ul>
 
@@ -390,28 +389,25 @@ When setting up a Front Door service, three components are required:</p>
 
 <p>We will setup our Build &amp; Deployment pipeline using the recently released multi-stage YAML based CI/CD pipelines in Azure DevOps.  We will configure our pipeline in two stages, Build and Release:</p>
 
-<p><strong>Build Solution</strong></p>
+<p><strong>Build</strong></p>
 
 <ul>
 <li>Build .NET Core Web App</li>
 <li>Publish Web App Artifact</li>
-<li>Publish Toggle Front Door Backend Script
-Artifact</li>
+<li>Publish Toggle Front Door Backend Script Artifact</li>
 </ul>
 
-<p><strong>Release Solution</strong></p>
+<p><strong>Release</strong></p>
 
 <ul>
 <li>Download Web App Artifact</li>
 <li>Download Toggle Front Door Backend Script Artifact</li>
-<li>Detect current environment and set Target Environment variable to blue or green</li>
-<li>Deploy Web App application to Target Environment</li>
-<li>Get Service Principal Credentials From Keyvault for Azure CLI login</li>
-<li>Switch Front Door Load Balancer to new environment</li>
-<li>Poll Front Door for Load Balancer changes to take affect</li>
+<li>Detect current environment and set target environment variable to blue or green</li>
+<li>Deploy web application to target environment</li>
+<li>Get Service Principal credentials from KeyVault for Azure CLI login</li>
+<li>Switch Front Door load balancer to new environment</li>
+<li>Poll Front Door for load balancer changes to take affect</li>
 </ul>
-
-<p><a href="https://github.com/philliproux/azure-frontdoor-bluegreen-deployment/blob/09aecec4d4d4b6df7617dd1adc5ca9537113a360/azure-pipelines.yml#L1">DevOps YAML on Github repo</a></p>
 
 <h3 id="detecting-target-environment">Detecting Target Environment:</h3>
 
@@ -419,7 +415,9 @@ Artifact</li>
 
 <script type="application/javascript" src="//gist.github.com/philliproux/6253fdeb8b83bd00ddbc4518c613ee6c.js"></script>
 
-<p>Output from Toggle between blue and Green</p>
+<p><a href="https://github.com/philliproux/azure-frontdoor-bluegreen-deployment/blob/09aecec4d4d4b6df7617dd1adc5ca9537113a360/azure-pipelines.yml#L1">Complete CI/CD YAML on Github</a></p>
+
+<p>Below is an output from our script that toggles between blue and green backends. It polls the front door URL until the new backend has taken effect.  You will notice it took around 138 seconds in this example for the switch to complete.  In my tests switching backends can take anything from a few seconds to around 3 minutes.</p>
 
 <p><img src="/static/img/post1_poll_front_door_for_changes.png" alt="Azure Resources" /></p>
 
@@ -427,7 +425,7 @@ Artifact</li>
 
 <h1 id="summary">Summary:</h1>
 
-<p>This post would not be complete if I did not mention Web Apps deployment slots which has been available for a couple years to enable a blue green deployment scenarios. I have however experienced some slow startups and long running swap operations which led me to investigate front door as alternative with the added benefits the service offers outlined at the top of this post. As an alternative to dedicated web app backends, you can consider using two deployment slots as your backends.</p>
+<p>This post would not be complete if I did not mention <a href="https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots">Web Apps deployment slots</a> which has been available for a couple years to enable a blue green deployment scenarios. I have however experienced some slow startups and long running swap operations which led me to investigate front door as alternative with the added benefits the service offers outlined at the top of this post. As an alternative to dedicated web app backends we used in this post, you can consider using two deployment slots as your blue/green backends without the need to use the Web App swap functionality.</p>
 
 <p>Stay tuned, as we will explore more use cases for Azure Front Door in the coming weeks.</p>
 
